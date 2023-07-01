@@ -1,0 +1,53 @@
+body {
+  background-color: #000;
+}
+
+span > a {
+  text-decoration: none;
+  margin-left: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+span > a:hover {
+  color: red;
+}
+
+.navbar-section {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.active {
+  font-size: 26px;
+  color: gold;
+}
+
+.movies {
+  overflow: hidden;
+}
+
+.movies:hover {
+  overflow: auto;
+  scrollbar-width: thin;  
+}
+
+/* .movies::-webkit-scrollbar {
+  width: 5px;
+} */
+
+.movies::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.movies::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.movies::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

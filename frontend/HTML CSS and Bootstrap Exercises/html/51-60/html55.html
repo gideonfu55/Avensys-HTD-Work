@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Activity 55 - Form A</title>
+
+  <style>
+    table {
+      border-spacing: 5px;
+      font-size: 17px;
+    }
+
+    table, th, td {
+      border-style: double;
+      border-width: 2px;
+      border-color: black;
+      padding: 5px 5px;
+    }
+
+    .column1 {
+      width: 125px;
+    }
+
+    .full {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <!-- All types of form inputs: -->
+    <fieldset>
+      <table>
+        <tr>
+          <th colspan="2">Registration Form</th>
+        </tr>
+        <tr>
+          <td class="column1"><label>Student Name</label></td>
+          <td><input class="full" type="text" required></td>
+        </tr>
+
+        <tr>
+          <td class="column1"><label>Father's Name</label></td>
+          <td><input class="full" type="text" required></td>
+        </tr>
+
+        <tr>
+          <td class="column1"><label>Mother's Name</label></td>
+          <td><input class="full" type="text" required></td>
+        </tr>
+
+        <tr>
+          <td class="column1"><label>Date of Birth</label></td>
+          <td><input type="date" required></td>
+        </tr>
+
+        <tr>
+          <td><label class="column1">Gender</label></td>
+          <td>
+            <label>Male</label>
+            <input type="radio" name="chooseOne">
+            <label>Female</label>
+            <input type="radio" name="chooseOne">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="column1"><label>Email ID</label></td>
+          <td><input class="full" type="email"></td>
+        </tr>
+
+        <tr>
+          <td class="column1"><label>Mobile No.</label></td>
+          <td><input class="full" type="number" required></td>
+        </tr>
+
+        <tr class="column1">
+          <td><label>Address</label></td>
+          <td><textarea class="full" style="width: 300px; height: 100px;"></textarea></td>
+        </tr>
+
+        <tr class="column1">
+          <td><label>State</label></td>
+          <td><input class="full" type="text" required></td>
+        </tr>
+
+        <tr class="column1">
+          <td><label>City</label></td>
+          <td><input class="full" type="text" required></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+</body>
+</html>
