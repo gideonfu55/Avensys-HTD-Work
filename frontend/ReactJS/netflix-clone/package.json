@@ -10,6 +10,7 @@
     "dotenv": "^16.1.4",
     "firebase": "^9.22.2",
     "movie-trailer": "^3.0.0",
+    "netflix-clone": "file:",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
